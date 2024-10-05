@@ -17,7 +17,7 @@ Ternary operatoridan va Random dan foydalaning
         static void Main(){
             System.Console.WriteLine("Tasodifiy raqam tanlanyapti...");
             Random random = new Random();
-            int variable = random.Next(1, 3);
+            int variable = random.Next(1, 100);
             System.Console.Write("Raqam tanlandi. Taxmin qilib ko'ring: ");
             int prediction = Convert.ToInt32(Console.ReadLine());
             if(prediction == variable){
